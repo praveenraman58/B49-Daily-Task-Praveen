@@ -1,0 +1,31 @@
+document object & window object 
+
+    document object:
+
+     > browser page is also called document object.... 
+
+    ex:
+
+       > UI page(user interface): 
+                1.Text (login page)
+                 2.image (login page)
+                 3.button (login page)
+    
+    window object:
+
+    > browser(clint) tap is also called window object...
+
+     ex:  
+
+     > Browser (tap page):
+                 1.web page 1 (ex-facebook user interface)
+                 2.web page 2 (ex-insta user interface)
+                 3.web page 3 (ex-github user interface)
+
+    codeketa practice:
+
+      i am daily practice but many more error but i am quickly complete codeketa problem... 
+
+       my energy:
+          google referance in codeketa problems
+          i don't forget my self confidance
