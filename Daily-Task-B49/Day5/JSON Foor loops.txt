@@ -1,0 +1,50 @@
+1. for loop ; 
+
+      The following piece of code is a perfect example of how to use a for loop through an array. 
+
+syntax ; 
+
+var numbers = [ 10, 20, 30, 40, 50] 
+for (var i=0; i < numbers.length; i++) {
+   console.log(numbers[i])
+}
+
+2. For In Loop ; 
+
+      The JavaScript for in statement loops through the properties of an Object:
+
+Syntax ; 
+
+const person = {fname:"John", lname:"Doe", age:25};
+
+let text = "";
+for (let x in person) {
+  text += person[x];
+}
+
+3.The For Of Loop ; 
+
+      The JavaScript for of statement loops through the values of an iterable object.
+
+Syntax ;
+
+  const cars = ["BMW", "Volvo", "Mini"];
+
+let text = "";
+for (let x of cars) {
+  text += x;
+}  
+
+4.ForEach() Loop ; 
+
+      This method is used for looping through an array element.
+
+Syntax ;
+      
+var names = ["jerry", "tom", "pluto", "micky", "mini"];
+names.forEach(function1);
+function function1(currentValue, index) {
+   console.log("Index in array is: "+index + " ::  Value is: "+currentValue);
+}
+
+

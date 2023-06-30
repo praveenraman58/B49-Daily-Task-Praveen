@@ -1,0 +1,69 @@
+{
+    "basics": {
+      "name": "Praveen kumar R",
+      "picture": "c:\Users\prave\OneDrive\Pictures\Saved Pictures\IMG_20230527_101659 (1).jpg",
+      "email": "praveenraman58@gmail.com",
+      "phone": "(+91) 98439-73812",
+      "qualification": "DME",
+      "summary": "To obtain a position in the information technology field where can apply and evolve development, information security, and systems administration skills. A self-starter with a team oriented mindset, bring a proven track record of delivering positive results.",
+      "location": {
+        "address": "No 3/192-1,Sarabojirajapuram,Vanduvancheri,Vedharanyam,Nagapattinam.",
+        "postalCode": "614714",
+        "city": "Vedharanyam",
+        "state": "Tamilnadu",
+        "region": "Hindu"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "Praveen kumar Raman",
+          "url": "www.linkedin.com/in/praveen-kumar-raman-4a0660213"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "pravartaga toolings and service",
+        "position": "Junior Engineer",
+        "website": "https://www.zaubacorp.com/company/PRAVARTAKA-TOOLING-SERVICES-PRIVATE-LIMITED/U29308DL2021PTC380591",
+        "startDate": "2022-10-10",
+        "endDate": "2023-04-25",
+        "summary": "Manufacture of other electric domestic appliances",
+      }
+    ],
+    "education": [
+      {
+        "institution": "Government polytechnic college",
+        "area": "Aranthangi",
+        "studyType": "Full Time",
+        "startDate": "2018-06-02",
+        "endDate": "2020-04-02",
+        "courses": [
+          "Diploma in mechanical engineering"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Programming Languages",
+        "level": "intermediar",
+        "keywords": [
+          "'Javascript'"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil,English",
+        "fluency": "Tamil"
+      }
+    ],
+    "interests": [
+      {
+        "name": "growth in my    programming language",
+        "keywords": [
+          "'python','c++','mern stock','mean stock',java'...etc"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,58 @@
+JavaScript Document Object ; 
+
+      JavaScript Document object is an object that provides access to all HTML elements of a document. When an HTML document is loaded into a browser window, then it becomes a document object.
+
+      The document object stores the elements of an HTML document, such as HTML, HEAD, BODY, and other HTML tags as objects.
+
+ DOCUMENT-PROPERTY ; 
+
+<!doctype html>
+	<head>
+		<style>
+			/* CSS comes here */
+			
+		</style>
+		<title>Document Properties</title>
+	</head>
+	<body>
+		<h3>Document Properties Example</h3>
+
+		<script>
+		    
+			document.write(document.domain +"<br>")
+			document.write(document.lastModified +"<br>")
+			document.write(document.documentMode +"<br>")
+			document.write(document.title +"<br>")
+			document.write(document.url +"<br>")
+
+		</script>
+	</body>
+</html>
+
+open() - opens an HTML document to display the output..
+close()	 - closes an HTML document..
+write() - Writes HTML expressions or JavaScript code into an HTML document..
+writeln() - write a new line character after each HTML expressions or JavaScript Code..	
+getElementById() - returns the reference of first element of an HTML document with the specified id..
+getElementByName() - returns the reference of an element with the specified name..	
+getElementsByTagName() - returns all elements with the specified tagname..
+
+ JS DOCUMENT METHOD EXAMPLE ; 
+ 
+<!doctype html>
+	<head>
+		<title>JS Document Methods Example</title>
+	</head>
+	<body>
+		<h3>Document Methods Example</h3>
+		<p id="demo">It Will change</p>
+
+		<script>
+		    // Open document
+		    document.open();
+		    // writing
+			document.write("Hello" +"<br>");
+			document.getElementById("demo").innerHTML = "Set by ID";
+		</script>
+	</body>
+</html>
