@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+        label{
+            color: rgb(0, 0, 0);   
+        }
+    
+        input{
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 253, 253);
+        }
+        #upload{
+            background-color: aqua;
+        }
+    
+       
+    </style>
+</head>
+<body style="background-color: rgb(255, 208, 0);">
+    <h1 style="color: rgb(229, 96, 20);font-size:30px;">Application Form</h1>
+    <br/>
+    <br/>
+    <label for="name">Name:</label>
+    <input id="Name" type="text"/>
+    <br/>
+    <br/>
+    <label for="age">Age:</label>
+    <input id="age" type="number"/>
+    <br/>
+    <br/>
+    <label for="email">Email:</label>
+    <input id="email" type="email">
+    <br/>
+    <br/>
+    <label for="password">password:</label>
+    <input id="password" type="password">
+    <br/>
+    <br/>
+    <label for="dob">DOB:</label>
+    <input id="dob" type="date">
+    <br/>
+    <br/>
+    <label style="color: blue;" for="upload">upload documents:</label>
+    <input id="upload" type="file">
+    <br/>
+    <br/>
+    <label id="gender">Gender:</label>
+    <input type="radio" name="gender"/><label>male</label>
+    <input type="radio" name="gender"/><label>female</label>
+    <input type="radio" name="gender"/><label>others</label>
+    <br/>
+    <br/>
+    <label id="city">city:</label>
+    <option value="chennai"></option>
+    <option value="kanchipuram"></option>
+    <option value="nagai"></option>
+    <br/>
+    <br/>
+    <input type="button" value="save">
+</body>
+</html>
