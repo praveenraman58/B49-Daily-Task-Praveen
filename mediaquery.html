@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query in CSS</title>
+    <style>
+      body {
+        background-color: yellow;
+        font-size: 14px;
+      }
+      @media (max-width: 600px) {
+        body {
+          background-color: aqua;
+          font-size: 18px;
+        }
+        .container {
+          flex-direction: column;
+        }
+        .box {
+          margin-bottom: 10px;
+        }
+      }
+      @media (min-width: 1200px) {
+        body {
+          background-color: rgb(195, 0, 255);
+          font-size: 22px;
+        }
+        .container {
+          display: flex;
+          flex-direction: row;
+        }
+        .box {
+          margin-right: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Media query - welcomes you!!!</h1>
+    <p>
+      This is an example of how media can change the background color based on
+      the screen size.
+    </p>
+    <div class="container">
+      <div class="box">box 1</div>
+      <div class="box">box 2</div>
+      <div class="box">box 3</div>
+    </div>
+  </body>
+</html>
