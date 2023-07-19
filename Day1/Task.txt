@@ -1,0 +1,45 @@
+HTTP1.1 vs HTTP2
+
+ HTTP1.1 :
+     
+     simple way for computer to understand each other..
+ 
+ HTTP2 :
+     
+      send and recieve more information at same the time..
+      all data is store to our computer cats(cookies)
+
+
+ 2.objects and its internal representation in Javascript
+
+ objects{} :
+       
+       object is like a container that holds different properties..
+       object store their elements as a key value pairs. each value pair is terminal as properties..
+
+3.codekata practice :  
+
+     i am free time practice codeketa..codeketa is very usefull...
+
+4.IP address, port, HTTP methods, MAC address
+
+Ip address :
+    
+    identifies each computer using the Internet Protocol to communicate over a network...
+
+port :
+    
+    mac address inside differnt types of port...
+
+ HTTP methods :
+
+             get - read(read to post in social media)
+             post - create(write to comments in post)
+             put - update(editing wrong comments)
+             delete - delete(delete comments)   
+
+MAC address :
+
+           unique address(mac),
+           any device one mac address
+           unique identify each devices on a given network... 
