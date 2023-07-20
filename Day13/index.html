@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: aqua;
+      }
+      div {
+        background-color: rgb(239, 216, 238);
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Dom">JS Dom</div>
+    <script>
+      const ele = document.createElement("div");
+      ele.setAttribute("id", "mainDiv");
+      ele.setAttribute("class", "main");
+      ele.innerText =
+        "When a web page is loaded, the browser creates a Document Object Model of the page.";
+
+      const para = document.createElement("p");
+      para.innertHTML = `<span style="color: blue;"></span>`;
+
+      const ach = document.createElement("a");
+      ach.setAttribute("target", "--blank");
+      ach.setAttribute("href", "https://www.w3schools.com/js/js_htmldom.asp");
+      ach.innerText = "click me";
+
+      const parentEle = document.getElementById("Dom");
+      parentEle.append(ele, para, ach);
+    </script>
+  </body>
+</html>
