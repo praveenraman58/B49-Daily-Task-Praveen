@@ -21,7 +21,14 @@
         if (xhr.status === 200) {
           var countriesDetails = JSON.parse(xhr.responseText);
           for (var i = 0; i < countriesDetails.length; i++) {
-            console.log(countriesDetails[i].name.common);
+            // console.log(countriesDetails[i].flag);
+            if (countriesDetails[i].currencies != undefined) {
+              Object.keys(countriesDetails[i].currencies).forEach((key) => {
+                if (key === "USD") {
+                  console.log(countriesDetails[i].currencies);
+                }
+              });
+            }
           }
         } else {
           console.log("Request failed", xhr.status);

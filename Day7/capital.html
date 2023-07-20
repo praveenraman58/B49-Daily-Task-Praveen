@@ -21,7 +21,7 @@
         if (xhr.status === 200) {
           var countriesDetails = JSON.parse(xhr.responseText);
           for (var i = 0; i < countriesDetails.length; i++) {
-            console.log(countriesDetails[i].name.common);
+            console.log(countriesDetails[i].capital);
           }
         } else {
           console.log("Request failed", xhr.status);
