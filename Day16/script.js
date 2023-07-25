@@ -13,18 +13,14 @@
 // playing(afterplaying);
 
 function walk(){
-    console.log("Walking!!!");
+    console.log("10");
     run();
 }
 function run(){
-    console.log("Running!!!");
-    setTimeout(()=>{
-        console.log("Drink water!!!");
-    },2000);
-    rest();
+    console.log("9");
 } 
 function rest(){
-    console.log("Rest!!!")
+    console.log("8")
 }
 
 walk();
