@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h2>Countries Details!!!!</h2>
+    <br />
+    <br />
+    <div class="container">
+      <div class="card-columns">
+        <div class="card bg-light">
+          <div class="card-body" id="Countries">
+            <p class="card-text">American Samoa</p>
+            <img src="https://flagcdn.com/w320/as.png" style="width: 100%" />
+            <div>
+              <p id="americanSamoa">Capital: <span id="capital"></span></p>
+              <p id="americanSamoareg">Region: <span id="region"></span></p>
+            </div>
+            <br />
+            <button id="americanSamoa12">Click for weather</button>
+          </div>
+        </div>
+        <div class="card bg-light">
+          <div class="card-body" id="Countries">
+            <p class="card-text">Peru</p>
+            <img src="https://flagcdn.com/w320/pe.png" style="width: 100%" />
+            <div>
+              <p id="peru">Capital: <span id="capital"></span></p>
+              <p id="perureg">Region: <span id="region"></span></p>
+            </div>
+            <br />
+            <button id="peru12">Click for weather</button>
+          </div>
+        </div>
+        <div class="card bg-light">
+          <div class="card-body" id="Countries">
+            <p class="card-text">Panama</p>
+            <img src="https://flagcdn.com/w320/pa.png" style="width: 100%" />
+            <div class="col">
+              <p id="panama">Capital: <span id="capital"></span></p>
+              <p id="panamareg">Region: <span id="region"></span></p>
+            </div>
+            <br />
+            <button onclick="myFunction()">Click for weather</button>
+            <p id="demo"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
