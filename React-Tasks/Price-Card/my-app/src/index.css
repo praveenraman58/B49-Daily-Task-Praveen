@@ -1,0 +1,134 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/520/346/488/geometry-cyberspace-digital-art-lines-wallpaper-preview.jpg");
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.heading-main{
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #ededf6;
+  padding: 25px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.text-center {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-header{
+  font-size: 5px;
+  font-family: "Courier New", Courier, monospace;
+  width: 250px;
+}
+.heading-center{
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 35px;
+}
+.body-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(61, 60, 60);
+  border-radius: 15px;
+  padding: 50px;
+  margin: 45px;
+  background-color: #646cff;
+}
+.fw-normal{
+  color: #353537;
+}
+.container{
+  border-radius: 15px;
+  color: #000000;
+  background-color: #ededf6;
+  margin: 10px;
+}
+.center {
+  padding: 25px 0;
+  font-size: 15px;
+  font-family: Garamond, serif;
+}
+ul {
+  list-style: none;
+  align-items: center;
+}
+
+ul li:before {
+  content: '✓';
+  size: 10px;
+}
+.btn {
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #000000;
+  background-color: rgb(73, 161, 216);
+  border: 1px solid black;
+  padding:10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
