@@ -8,7 +8,9 @@ function ChangeSoundButton() {
     setAnimalSound(newSound);
   };
 
-  return <button onClick={() => changeSound("praveen")}>Change Sound!!</button>;
+  return (
+    <button onClick={() => changeSound([newSound])}>Change Sound!!</button>
+  );
 }
 
 export default ChangeSoundButton;
